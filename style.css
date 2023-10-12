@@ -1,0 +1,76 @@
+body{
+    background-image:url("background.jpg");
+    background-size: cover;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#I1{
+    height: 150px;
+    width: 150px;
+}
+#I2{
+    height: 150px;
+    width: 150px; 
+}
+#D1{
+    position: fixed;
+    bottom: 100px;
+    left:40px;
+}
+#D2{
+
+    position: fixed;
+    bottom: 100px;
+    right:40px;
+}
+#S{
+    padding-right: 20px;
+}
+#V{
+    padding-right: 20px;
+}
+#H{
+    animation-name:AN ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes AN{
+    0%{color: red; text-shadow: 0 0 30px lightcoral}
+    14%{color: violet; text-shadow: 0 0 30px lightpink}
+    28%{color:blueviolet; text-shadow: 0 0 30px orchid}
+    42%{color: lightskyblue; text-shadow: 0 0 30px lightcyan}
+    56%{color: greenyellow; text-shadow: 0 0 30px lightgreen}
+    70%{color: yellow; text-shadow: 0 0 30px lightgoldenrodyellow}
+    84%{color: orange; text-shadow: 0 0 30px yellow}
+    100%{ color: red; text-shadow: 0 0 30px lightcoral}
+}
+canvas{
+    margin-top: 75px;
+    background-color: white;
+    border-radius: 20px;
+    border:solid 5px white;
+    animation-name:AN2 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes AN2{
+    0%{ box-shadow: 0 0 30px red}
+    14%{box-shadow: 0 0 30px violet}
+    28%{box-shadow: 0 0 30px blueviolet}
+    42%{box-shadow: 0 0 30px lightskyblue}
+    56%{box-shadow: 0 0 30px greenyellow}
+    70%{box-shadow: 0 0 30px yellow}
+    84%{box-shadow: 0 0 30px orange}
+    100%{box-shadow: 0 0 30px red}
+}
+#P{
+   
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+}
